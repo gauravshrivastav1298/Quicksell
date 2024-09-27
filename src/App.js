@@ -14,7 +14,10 @@ const App = () => {
   useEffect(() => {
     dispatch(fetchAllData());
   }, [dispatch])
-  //hii how are you all
+  useEffect(() => {
+    dispatch(fetchAllData());
+  }, [dispatch])
+ 
   
 
   return allTickets ? (
