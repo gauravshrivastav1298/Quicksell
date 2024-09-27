@@ -14,6 +14,8 @@ const App = () => {
   useEffect(() => {
     dispatch(fetchAllData());
   }, [dispatch])
+  //hii how are you all
+  
 
   return allTickets ? (
     <div style={{paddingTop : "10px"}} >
